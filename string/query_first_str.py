@@ -1,5 +1,6 @@
 def first(words=None):
     dic = {}
+    # 目的存储Key Value对应的次数
     # 分析字符串长度  循环
     for i in range(len(words)):
         # 根据长度进行循环
@@ -9,7 +10,8 @@ def first(words=None):
             dic[words[i]] = 1
     for i in range(len(words)):
         if dic[words[i]] == 1:
+            print(dic)
             return words[i]
 
 
-print(first(words="ll ll"))
+print(first(words="9898cxzawedadadad123,;.../.wqe"))
