@@ -3,16 +3,13 @@ def sub_sort(array, low, high):
     # 判断数组的第一个
     while low < high:
         # 判断数组组大最小是否有区间
-
         while low < high and array[high] >= key:
             print("此时key array[low] %d array[high] % d low是 %d high是%d" % (key, array[high], low, high))
-
             high -= 1
             print("处理后变换%s" % array)
 
         while low < high and array[high] < key:
             print("此时key array[low] %d array[high] % d low是 %d high是%d" % (key, array[high], low, high))
-
             array[low] = array[high]
             low += 1
             array[high] = array[low]
