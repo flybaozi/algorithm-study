@@ -32,11 +32,13 @@ def merge_list(list1, list2):
 #
 def get_median(data):
     half = len(data) // 2
+    print(data[half])
+    print(data[~half])
     return (data[half] + data[~half]) / 2
 
 
 if __name__ == '__main__':
-    a = merge_list(list1=[5, 6, 10, 13, 25, 30], list2=[3, 7, 8, 9, 12])
+    a = merge_list(list1=[5, 6, 10, 13,  30], list2=[3, 7, 8, 9, 12])
     print(get_median(data=a))
 #
 # if __name__ == '__main__':
