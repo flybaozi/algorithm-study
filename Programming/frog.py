@@ -4,14 +4,14 @@ def frog(high=None):
     up = 7
     down = 5
     while True:
-        day += 1
-        current += up
+        day += 1  # day = day+1
+        current += up  # current = current + up
         print("上升了 %d 米" % current)
         if current >= high:
             break
         current -= down
         print("下降后 %d 米" % current)
-    print("共花费%d" % day)
+    print("共花费%d天" % day)
 
 
 frog(30)

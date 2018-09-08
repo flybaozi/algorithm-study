@@ -5,3 +5,5 @@
  ```
  ab -n 100 -c 10 http://test.com/
  ```
+
+list.pop  不仅会丢弃掉数组中的数  也会将它return出来
