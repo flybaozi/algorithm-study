@@ -31,6 +31,7 @@ if __name__ == '__main__':
     quick_sort(array, 0, len(array) - 1)
     print('现：', array)
 
+
 # 递归
 def quick_search(arr):
     if len(arr) < 2:
@@ -40,3 +41,4 @@ def quick_search(arr):
         low = [i for i in arr[1:] if i <= pivot]
         high = [i for i in arr[1:] if i > pivot]
         return quick_search(low) + [pivot] + quick_search(high)
+
