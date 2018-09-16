@@ -38,8 +38,8 @@ def get_median(data):
 
 
 if __name__ == '__main__':
-    a = merge_list(list1=[5, 6, 10, 13,  30], list2=[3, 7, 8, 9, 12])
-    print(get_median(data=a))
+    a = merge_list(list1=[1,1,5, 6, 10, 13,  30], list2=[3, 7, 8, 9, 12])
+    print(a)
 #
 # if __name__ == '__main__':
 #     a = [1, 3, 4, 6, 7, 78, 97, 190]
