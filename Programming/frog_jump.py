@@ -14,9 +14,9 @@
 #         return result  # 得出结果
 #
 #
-# print(jumpFloor(14))
+# print(jumpFloor(9))
 
-
+#
 def climbStairs(n):
     if n == 1:
         return 1
@@ -25,5 +25,9 @@ def climbStairs(n):
     else:
         return climbStairs(n - 1) + climbStairs(n - 2)
 
-
 print(climbStairs(14))
+
+
+def asd():
+    a = 1
+    b = 2
